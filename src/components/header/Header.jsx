@@ -1,18 +1,6 @@
+import { menuSpanish } from "../../utils/constants/menu";
+
 const Header = () => {
-
-    const menuSpanish = [
-        {id: 1, text: 'Home'},
-        {id: 2, text: 'About'},
-        {id: 3, text: 'Services'},
-        {id: 4, text: 'Contact'},
-    ];
-
-    const menuEnglish = [
-        {id: 1, text: 'Home'},
-        {id: 2, text: 'About'},
-        {id: 3, text: 'Services'},
-        {id: 4, text: 'Contact'},
-    ];
 
     return (
     <>
