@@ -1,0 +1,12 @@
+/*:::::::::::::::::::::::::
+::::::    HEADER     ::::::  
+:::::::::::::::::::::::::::*/
+
+.nav-link {
+    transform: translateY(0);
+    transition: all 0.35s cubic-bezier(0.78, 1, 0.22, 1);
+}
+
+.nav-link:hover {
+    transform: translateY(-0.2rem) !important;
+}

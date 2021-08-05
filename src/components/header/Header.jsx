@@ -1,4 +1,5 @@
 import { menuSpanish } from "../../utils/constants/menu";
+import '../../styles/styles.css';
 
 const Header = () => {
 
@@ -15,7 +16,7 @@ const Header = () => {
                     <ul className="navbar-nav">
                         {menuSpanish.map(item => (
                             <li className="nav-item" key={item.id}>
-                                <a className="nav-link active" aria-current="page" href="#b">{ item.text }</a>
+                                <a className="nav-link" aria-current="page" href="#b">{ item.text }</a>
                             </li>
                         ))}
                     </ul>
