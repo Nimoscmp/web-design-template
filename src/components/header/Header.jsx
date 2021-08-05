@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
     <>
-        <header className="w-100 d-flex justify-content-end">
+        <header className="w-100 d-flex justify-content-end header">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     {/* <a className="navbar-brand" href="#a">Navbar</a> */}
