@@ -1,0 +1,58 @@
+/*:::::::::::::::::::::::::
+::::::     HOME      ::::::  
+:::::::::::::::::::::::::::*/
+
+.home {
+    height: calc(100vh - 5.5rem);
+}
+
+.text-group {
+    left: 10rem;
+    top: 50%;
+    transform: translateY(calc(-50% - 2.25rem));
+}
+
+.main-title {
+    color: #0c0c0c;
+}
+
+.sub-title {
+    color: #9c0580;
+}
+
+.box-img {
+    top: 50%;
+    right: 15rem;
+    transform: translateY(calc(-50% - 2.25rem));
+    max-width: 360px;
+    background-color: #fff;
+    border-radius: 4rem;
+}
+
+.trapezoid {
+    top: -5.5rem;
+    left: 0;
+	width: 0;
+	height: 0;
+	border-top: 0;
+	border-left: 60vw solid #dadada;
+	border-bottom: 140vh solid transparent;
+}
+
+.outer-circle {
+    top: 50%;
+    right: -8%;
+    transform: translateY(calc(-50% - 2.25rem));
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background-color: #520b0b;
+}
+
+.inner-circle {
+    width: 60%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+

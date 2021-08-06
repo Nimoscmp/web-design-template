@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400;500&family=Montserrat:wght@300;400;500&display=swap');
+
+/* Selection */
 ::-moz-selection { 
     color: #353535;
     background: #e9b2b2; 
@@ -5,5 +8,39 @@
 ::selection { 
     color: #353535;
     background: #e9b2b2; 
+}
+
+/* Fonts */
+.font-georama {
+    font-family: 'Georama', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Z-index */
+.zi-5 {
+    z-index: 5;
+}
+
+.zi-10 {
+    z-index: 10;
+}
+
+.zi-15 {
+    z-index: 15;
+}
+
+/* Center */
+.center-y {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-xy {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
