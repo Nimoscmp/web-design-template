@@ -1,4 +1,4 @@
-import { menuSpanish } from "../../utils/constants/menu";
+import { menuSpanish , menuEnglish } from "../../utils/constants/menu";
 import '../../styles/styles.css';
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        {menuSpanish.map(item => (
+                        {menuEnglish.map(item => (
                             <li className="nav-item" key={item.id}>
                                 <a className="nav-link font-montserrat" aria-current="page" href="#b">{ item.text }</a>
                             </li>
