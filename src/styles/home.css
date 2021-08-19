@@ -13,11 +13,31 @@
 }
 
 .main-title {
+    color: #0c0c0c00;
+}
+
+.main-title-final {
     color: #0c0c0c;
 }
 
 .sub-title {
+    color: #9c058000;
+}
+
+.sub-title-final {
     color: #9c0580;
+}
+
+.button {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.button-final {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 .box-img {
@@ -31,12 +51,19 @@
 
 .trapezoid {
     top: -5.5rem;
-    left: 0;
 	width: 0;
 	height: 0;
 	border-top: 0;
 	border-left: 60vw solid #dadada;
 	border-bottom: 140vh solid transparent;
+}
+
+.trapezoid-init {
+    left: -65%;
+}
+
+.trapezoid-final {
+    left: 0;
 }
 
 .outer-circle {
@@ -54,5 +81,13 @@
     height: 60%;
     background-color: #fff;
     border-radius: 50%;
+}
+
+.moved-up {
+    transform: translateY(-2rem);
+}
+
+.moved-down {
+    transform: translateY(0);
 }
 
