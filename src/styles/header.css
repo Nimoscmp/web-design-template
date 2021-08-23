@@ -18,3 +18,8 @@
 .nav-link:hover {
     transform: translateY(-0.2rem) !important;
 }
+
+.btn-group {
+    background-color: #fff !important;
+    border-radius: 5px !important;
+}
