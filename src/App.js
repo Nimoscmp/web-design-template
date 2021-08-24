@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Services from "./components/services/Services";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
       <main>
         <Home/>
+        <Services/>
       </main>
     </>
   );
